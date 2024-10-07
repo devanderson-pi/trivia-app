@@ -27,7 +27,9 @@ describe('', () => {
     render(<Questions />);
 
     expect(screen.getByText('No questions available.')).toBeInTheDocument();
-    expect(screen.getByText('Go back to the homepage')).toBeInTheDocument();
+    expect(screen.getByRole('link')).toHaveTextContent(
+      'Go back to the homepage'
+    );
   });
 
   it('should render questions if triviaData is available', () => {
