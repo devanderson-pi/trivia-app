@@ -16,3 +16,8 @@ export interface TriviaResponse {
   response_code: number;
   results: Question[];
 }
+
+export type UserResponses = {
+  data: TriviaData[];
+  score: number;
+} | null;

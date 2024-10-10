@@ -10,7 +10,7 @@ const config: Config = {
         secondary: '#30252f',
         tertiary: '#faffe2',
         error: '#c0180a',
-        success: '#0db90d',
+        success: '#097e09',
         background: '#edfeff',
       },
     },
