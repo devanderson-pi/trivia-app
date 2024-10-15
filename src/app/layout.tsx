@@ -10,7 +10,8 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: 'Trivia App',
-  description: '',
+  description:
+    'A quiz app that allows users to select the number of questions they want to answer.',
 };
 
 export default function RootLayout({
